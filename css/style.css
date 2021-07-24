@@ -1,0 +1,107 @@
+body{ 
+	 margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+header{
+	
+}
+.announcment{
+	padding: 10px 20px;
+	background-color: #30444c;
+} 
+.announcment p{
+	 color: white;
+	 margin: 0;
+	 font-size: 20px;
+	 text-transform: uppercase;
+	 letter-spacing: 8px;
+	 text-align: center;
+}
+.menu{ 
+	border: #30444c solid 1px;
+ }
+ol{
+    margin: 0;
+    padding: 20px;
+    text-align: center;  
+}
+ol li{
+    display: inline-block;
+}
+ol li a{
+       font-size: 15px;
+    color: #30444c;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* background-color: #30444c; */
+    display: block;
+    border-radius: 12px;
+    border: #30444c dotted 2px;
+   
+
+    
+    
+    
+   
+    
+    transition-duration: 0.4s;
+
+}
+ol li a:hover{
+	    color:black;
+    border-right: black;
+    border-left: black;
+    background-color:white;
+    border: lightcoral dotted 2px;
+}
+img{ 
+	max-width: ;
+ }
+ .banner-section{
+
+padding: 50px 0px;
+background: #58582014 ;
+
+}
+ .banner{
+    width: 822px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ .banner img{
+        box-shadow: 0 0 20px 0 #2724246e;
+    max-width: 100%;
+    border-radius: 15px;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+.banner img:hover{
+	 box-shadow: 0 0 0 0 #2724246e;
+}
+.content-section{
+    padding: 70px;
+}
+.content{
+    width: 47%;
+    margin: auto;
+}
+.content p{
+    font-size: 18px;
+
+}
+.content h1{
+	color: #0c7886;
+	font-size: 50px;
+	margin: 0;
+}
+.content p strong{
+	
+font-weight: 600;
+	
+background: #efc82e;
+	
+padding: 0 10px;
+	
+display: inline;
+}
